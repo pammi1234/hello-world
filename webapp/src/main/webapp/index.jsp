@@ -2,7 +2,7 @@
 <html> 
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title> Login Page </title>
+<title> User Login Page </title>
 <style> 
 Body {
   font-family: Calibri, Helvetica, sans-serif;
@@ -48,7 +48,7 @@ button {
     <center> <h1> Student Login Form </h1> </center> 
     <form>
         <div class="container"> 
-            <label>Username : </label> 
+            <label>Enter User Name : </label> 
             <input type="text" placeholder="Enter Username" name="username" required>
             <label>Password : </label> 
             <input type="password" placeholder="Enter Password" name="password" required>
