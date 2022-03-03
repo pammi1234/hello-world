@@ -48,7 +48,7 @@ button {
     <center> <h1> Student Login Form </h1> </center> 
     <form>
         <div class="container"> 
-            <label>Enter User Name : </label> 
+            <label>Enter_user_name : </label> 
             <input type="text" placeholder="Enter Username" name="username" required>
             <label>Password : </label> 
             <input type="password" placeholder="Enter Password" name="password" required>
