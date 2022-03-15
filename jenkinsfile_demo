@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+    
+    enviroment{
+    PATH="/opt/maven/bin:$PATH"
+    
+    }
+    stages {
+        stage('Git checkout') {
+            steps { 
+                git credentialsId: 'pammi1234', url: 'https://github.com/pammi1234/hello-world.git'
+            }
+        }
+        stage("Maven Build")
+        {
+        steps{
+        sh "mvn clean package"
+        
+        
+        }
+           
+        
+        }
+    }
+}
